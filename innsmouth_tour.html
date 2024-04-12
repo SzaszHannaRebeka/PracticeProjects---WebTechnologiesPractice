@@ -4,42 +4,6 @@
     <meta charset="UTF-8">
     <title>Insmouth Tour</title>
     <link rel="stylesheet" href="innsmouth_tour.css">
-
-    <style>
-
-        .image-container {
-            position: relative;
-            margin: 0 auto;
-            width: 225px; /* Set the dimensions of your image */
-        }
-
-        .image-container img {
-            width: 100%;
-            height: auto;
-        }
-
-        .overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-
-            background-color: rgba(40, 57, 47, 0.7); /* Adjust the opacity as needed */
-            
-            font-family: "Papyrus", fantasy;
-            font-size: small;
-            color: white;
-            
-            display: none;
-            transition: opacity 0.3s ease;
-        }
-
-        .image-container:hover .overlay {
-            display: block;
-        }
-    </style>
-
 </head>
 <body>
     <table class="pages">
@@ -72,7 +36,7 @@
                                 <div class="buttoncontainer">
                                     <a href="#second">
                                         <div class="image" style="margin: 0 auto; width: 200px">
-                                            <img src="bus.png" alt="Bus" style="width: 200px" id="tobutton">
+                                            <img src="./images/bus.png" alt="Bus" style="width: 200px" id="tobutton">
                                         </div>
                                     </a>
                                 </div>
@@ -106,18 +70,18 @@
                         <tr>
                             <td>
                                 <div class="image-container" style="margin: 0 auto; width: 200px">
-                                    <img src="town1.png" alt="Town" style="width: 200px">
+                                    <img src="./images/town1.png" alt="Town" style="width: 200px">
                                 </div>
                             </td>
                             <td>
                                 <div class="image-container" style="margin: 0 auto; width: 200px">
-                                    <img src="hotel.png" alt="Hotel" style="width: 200px">
+                                    <img src="./images/hotel.png" alt="Hotel" style="width: 200px">
                                     <div class="overlay"  style="text-align:center">Gilman House<br><br>The hotel building towers over the Town Square, you get uncomfortable just thinking about entering... the warnings must be right and one should not stay the night.</div>
                                 </div>
                                 <button id="stay-button" style="margin: 0 auto">Stay the night</button>
-                                <img class="run" id="runimagehotel" src="run.jpg" style="display: none;">
+                                <img class="run" id="runimagehotel" src="./images/run.jpg" style="display: none;">
                                 <a href="#first" class="escape" id="awaybuttonhotel">
-                                    <img src="escape.jpg" id="escapeimagehotel" alt="escape" style="display:none">
+                                    <img src="./images/escape.jpg" id="escapeimagehotel" alt="escape" style="display:none">
                                 </a>
                                 <p class="message" id="messagehotel" style="display: none;">
                                     You didn't heed the warning did you...?<br>
@@ -127,20 +91,20 @@
                             </td>
                             <td>
                                 <div class="image-container" style="margin: 0 auto; width: 200px">
-                                    <img src="town2.png" alt="Town" style="width: 200px">
+                                    <img src="./images/town2.png" alt="Town" style="width: 200px">
                                 </div>
                             </td>
                         </tr>
                         <tr>
                             <td>
                                 <div class="image-container" style="margin: 0 auto; width: 200px">
-                                    <img src="church.png" alt="Old Church" style="width: 200px">
+                                    <img src="./images/church.png" alt="Old Church" style="width: 200px">
                                     <div class="overlay" style="text-align:center">The Old Church building<br><br>You see odd figures moving in and out of the building, and you remember the warning. You must not linger.</div>
                                 </div>
                                 <button id="linger-button" style="margin: 0 auto">Linger...</button>
-                                <img class="run" id="runimagechurch" src="run.jpg" style="display: none;">
+                                <img class="run" id="runimagechurch" src="./images/run.jpg" style="display: none;">
                                 <a href="#first" class="escape" id="awaybuttonchurch">
-                                    <img src="escape.jpg" id="escapeimagechurch" alt="escape" style="display:none">
+                                    <img src="./images/escape.jpg" id="escapeimagechurch" alt="escape" style="display:none">
                                 </a>
                                 <p class="message" id="messagechurch" style="display: none;">
                                     You didn't heed the warning did you...?<br>
@@ -152,14 +116,14 @@
                                 <div class="buttoncontainer">
                                     <a href="#first">
                                         <div class="image" style="margin: 0 auto; width: 150px">
-                                            <img src="bus.png" alt="Bus" style="width: 150px">
+                                            <img src="./images/bus.png" alt="Bus" style="width: 150px">
                                         </div>
                                     </a>
                                 </div>
                             </td>
                             <td>
                                 <div class="image-container" style="margin: 0 auto; width: 200px">
-                                    <img src="boardeduphouses.png" alt="Boarded up houses" style="width: 200px">
+                                    <img src="./images/boardeduphouses.png" alt="Boarded up houses" style="width: 200px">
                                     <div class="overlay" style="text-align:center">Houses with boarded up windows<br><br>You see movement in the seemingly deserted building, and get the feeling someone's watching you. Maybe it's best you leave.</div>
                                 </div>
                             </td>
@@ -167,18 +131,18 @@
                         <tr>
                             <td>
                                 <div class="image-container" style="margin: 0 auto; width: 200px">
-                                    <img src="sea1.png" alt="Sea" style="width: 200px">
+                                    <img src="./images/sea1.png" alt="Sea" style="width: 200px">
                                 </div>
                             </td>
                             <td>
                                 <div class="image-container" style="margin: 0 auto; width: 200px">
-                                    <img src="docks.png" alt="Docks" style="width: 200px">
+                                    <img src="./images/docks.png" alt="Docks" style="width: 200px">
                                     <div class="overlay" style="text-align:center"><br>The Harbour<br><br>An ungodly smell is overflowing the harbor, nothing that could be called normal. Maybe it's best you walk away.</div>
                                 </div>
                             </td>
                             <td>
                                 <div class="image-container" style="margin: 0 auto; width: 200px">
-                                    <img src="sea2.png" alt="Sea" style="width: 200px">
+                                    <img src="./images/sea2.png" alt="Sea" style="width: 200px">
                                 </div>
                             </td>
                         </tr>
@@ -187,66 +151,6 @@
             </tr>
         </tbody>
     </table>
-    <script>
-        const color='#3D4E44';
-        document.body.style.background = 'black';
-
-        window.addEventListener("load", function() {
-            document.body.style.transition = "background 5s";
-            document.body.style.background = color;
-        });
-        
-        const lingerButton = document.getElementById("linger-button");
-        const runImagechurch = document.getElementById("runimagechurch");
-        const escapeImagechurch = document.getElementById("escapeimagechurch");
-        const messageChurch = document.getElementById("messagechurch")
-
-        const stayButton = document.getElementById("stay-button");
-        const runImagehotel = document.getElementById("runimagehotel");
-        const escapeImagehotel = document.getElementById("escapeimagehotel");
-        const messageHotel=document.getElementById("messagehotel")
-        
-        lingerButton.addEventListener("click", () => {
-            runImagechurch.style.display = "block";
-            escapeImagechurch.style.display="block";
-            messageChurch.style.display="block";
-            stayButton.style.display="none";
-            document.body.style.transition = "background 0s";
-            document.body.style.background = 'black';
-        });
-
-        stayButton.addEventListener("click", () => {
-            runImagehotel.style.display = "block";
-            escapeImagehotel.style.display="block";
-            messageHotel.style.display="block";
-            lingerButton.style.display="none";
-            document.body.style.transition = "background 0s";
-            document.body.style.background = 'black';
-        });
-
-        const awayButtonHotel=document.getElementById("awaybuttonhotel");
-        awayButtonHotel.addEventListener("click",()=> {
-            document.body.style.transition = "background 3s";
-            document.body.style.background = color;
-        });
-
-        const awayButtonChurch=document.getElementById("awaybuttonchurch");
-        awayButtonChurch.addEventListener("click",()=> {
-            document.body.style.transition = "background 3s";
-            document.body.style.background = color;
-        });
-
-        const toButton=document.getElementById("tobutton");
-        toButton.addEventListener("click", () => {
-           runImagechurch.style.display = "none";
-           escapeImagechurch.style.display="none";
-           messageChurch.style.display="none";
-           runImagehotel.style.display = "none";
-           escapeImagehotel.style.display="none";
-           messageHotel.style.display="none";
-           lingerButton.style.display="block";
-           stayButton.style.display="block";
-        });
-    </script>
+    <script src="functions.js"></script>
 </body>
 </html>

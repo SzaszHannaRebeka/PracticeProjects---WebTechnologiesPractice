@@ -1,0 +1,175 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow:hidden;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+table.pages {
+    border-collapse: collapse;
+}
+table.pages td{
+    border-collapse: collapse;
+    width: 100vw;
+}
+
+table.pages tr.first{
+    border-collapse: collapse;
+    height: 100vh;
+}
+table.pages tr.second{
+    border-collapse: collapse;
+    height: 100vh;
+}
+
+table.pages tr.first table.welcome{
+    table-layout: fixed;
+    border-collapse: collapse;
+    height: 100vh;
+    
+}
+table.pages tr.first table.welcome td{
+    border-collapse: collapse;
+    height: 33%;
+}
+
+table.pages tr.second table.map{
+    border-collapse: collapse;
+    height: 100vh;
+}
+table.pages tr.second table.map td{
+    position: relative;
+    border-collapse: collapse;
+    
+}
+
+div.buttoncontainer{
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-family: "Papyrus", fantasy;
+}
+
+a {
+    color: black;
+}
+a.escape{
+    position: absolute;
+    bottom:5%;
+    left:45%;
+}
+
+button{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border: 0.5px solid;
+    border-radius: 12px;
+    padding: 2px 5px;
+    background-color: transparent;
+
+    font-size: 15px;
+
+    text-shadow:
+    1px 1px 1px #3D4E44,
+    -1px 1px 1px #3D4E44,
+    -1px -1px 1px #3D4E44,
+    1px -1px 1px #3D4E44;
+
+    box-shadow:
+    1px 1px 1px #3D4E44,
+    -1px 1px 1px #3D4E44,
+    -1px -1px 1px #3D4E44,
+    1px -1px 1px #3D4E44;
+
+    transition: all 0.2s ease-in-out;
+}
+.button:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+
+img.run{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+}
+img.blackimage{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+}
+
+p.sparkle{
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-family: "Papyrus", fantasy;
+    font-size: large;
+    font-weight: bold;
+}
+p.title{
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-family: "Papyrus", fantasy;
+    font-size: xx-large;
+    font-weight: bold;
+
+    text-align: center;
+
+    text-decoration: underline;
+}
+p.introduction{
+    max-width: fit-content;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    font-family: "Papyrus", fantasy;
+    font-size: large;
+    font-weight: bold;
+}
+p.source{
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-family: "Papyrus", fantasy;
+    font-size: x-large;
+    font-weight: bold;
+
+    text-decoration: underline;
+}
+p.sources{
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-family: "Papyrus", fantasy;
+    font-size: large;
+    font-weight: bold;
+}
+p.message{
+    color: white;
+
+    font-family: "Papyrus", fantasy;
+
+    z-index: 1;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    text-align: center;
+}

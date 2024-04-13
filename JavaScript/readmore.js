@@ -4,7 +4,7 @@ const readmorep=document.getElementById("readmorep");
 
 readmorebutton.addEventListener("click", function(){
     var request=new XMLHttpRequest();
-    request.open('GET', 'https://szaszhannarebeka.github.io/PracticeProjects-HTML-CSS-JavaScript/books.json');
+    request.open('GET', 'https://szaszhannarebeka.github.io/PracticeProjects---WebTechnologiesPractice/books.json');
     request.onload=function() {
         var data=JSON.parse(request.responseText);
         renderHTML(data);
